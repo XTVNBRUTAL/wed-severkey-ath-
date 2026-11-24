@@ -1,0 +1,7 @@
+V45.3 NOTES
+- Node.js check occurs before creating the .runtime directory.
+- When Node.js is absent, launcher opens the official Node.js download page and exits; it never downloads/runs a Node executable itself.
+- Cloudflare tunnel is skipped when cloudflared.exe is not installed; local website remains available.
+- CLEAN_RUNTIME.bat removes only project .runtime and PUBLIC_URL.txt; key database/configuration are preserved.
+- No .exe/.dll/.msi binary is bundled in this ZIP.
+- This package has not been scanned by Microsoft Defender on the user's PC. Do not treat static checks as an antivirus certification.

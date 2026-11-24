@@ -1,0 +1,15 @@
+TA-STORE-VN V45.3 - LAUNCHER SUA LOI + DON DEP RUNTIME
+
+1) Giai nen ZIP vao thu muc rieng.
+2) Neu may chua co Node.js: bam INSTALL_NODE_LTS.bat, tai ban LTS - Windows Installer (.msi) tu nodejs.org va cai dat.
+3) Dong tat ca cua so CMD dang mo, sau do chay start.bat.
+4) Khi Node.js da duoc nhan dien, website se chay local va tu mo trinh duyet.
+5) Neu may chua cai cloudflared, launcher bo qua tunnel va van chay website local; khong tu tai hay tu chay EXE tu Internet.
+6) Chay stop.bat de dung website.
+7) Chay CLEAN_RUNTIME.bat de xoa log/PID/file tam trong .runtime va PUBLIC_URL.txt. File nay khong xoa data/store.json hay config.json.
+
+Tai khoan bootstrap mac dinh (neu chua doi):
+Username: ADMIN
+Password: tanhsito67
+
+LUU Y: Khong cho phep/restore file ma Microsoft Defender da quarantine. Neu Defender bao threat, giu file o trang thai quarantine va quet Offline/Full scan.

@@ -1,0 +1,11 @@
+{
+  "configVersion": 4,
+  "host": "127.0.0.1",
+  "port": 3000,
+  "adminUsername": "ADMIN",
+  "adminSalt": "bc359b1faeb407fafd8bb97365acfce5",
+  "adminPasswordHash": "52d8aa2ff0ef4423193d8c90252c1e6308c280e446ce8640b9bdbac208bcc13de3d12cec30130559b9e27b496b0d44e214018aa25557bcfa72a38ac3ac367206",
+  "cookieSecure": false,
+  "allowedOrigins": [],
+  "publicBaseUrl": ""
+}

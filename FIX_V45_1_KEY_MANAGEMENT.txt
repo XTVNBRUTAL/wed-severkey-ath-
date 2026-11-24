@@ -1,0 +1,21 @@
+TA-STORE-VN V45.1 — QUẢN LÝ KEY NHANH
+
+ĐÃ THÊM:
+- Sau khi tạo hàng loạt, cửa sổ kết quả hiện tổng số key tạo thành công và toàn bộ mã key (mỗi dòng một mã).
+- Nút COPY TẤT CẢ để sao chép trọn batch.
+- Nút TẢI TXT để lưu danh sách key thành file .txt.
+- Làm mới danh sách và bỏ bộ lọc cũ sau khi tạo batch để các key mới dễ nhìn thấy.
+- Mỗi dòng key có nút SỬA NHANH và XÓA NHANH.
+- Sửa nhanh cho phép đổi cả mã key, tên key, giới hạn thiết bị và thời hạn.
+- Server chuẩn hóa mã key thành chữ hoa, kiểm tra định dạng và từ chối mã bị trùng.
+- Các trường được xác thực trước khi lưu; yêu cầu sửa không hợp lệ không làm thay đổi key đang lưu.
+
+LƯU Ý:
+- Xóa key là thao tác vĩnh viễn và không thể hoàn tác.
+- Đổi mã key sẽ khiến mã cũ không còn dùng để xác thực; gửi mã mới cho người dùng ứng dụng.
+- Khi deploy Railway, upload/deploy lại toàn bộ project có cả index.html và server.js.
+
+KIỂM TRA:
+- node --check server.js: OK
+- Node syntax check inline JavaScript trong index.html: OK
+- API test: tạo 2 key, sửa mã/tên/giới hạn, từ chối key trùng, từ chối input không hợp lệ theo kiểu atomic, xóa key: PASS.
